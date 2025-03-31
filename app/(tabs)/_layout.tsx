@@ -38,6 +38,7 @@ const Layout = () => {
     <Tabs
       screenOptions={{
         tabBarShowLabel: false,
+        tabBarHideOnKeyboard: true,
         tabBarItemStyle: {
           width: "100%",
           height: "100%",
